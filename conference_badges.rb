@@ -1,12 +1,8 @@
-# Write your code here.
-
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-def badge_maker(name)
+	speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+ def badge_maker(name)
   "Hello, my name is #{name}."
 end
-
-def batch_badge_creator(array)
+ def batch_badge_creator(array)
   new_array = []
    array.each do |name|
     new_array.push("Hello, my name is #{name}.")
@@ -23,8 +19,7 @@ def assign_rooms(array)
   end
   return new_array
 end
-
-def printer(array)
+ def printer(array)
   batch_badge_creator(array).each do |card|
     puts card
   end 
